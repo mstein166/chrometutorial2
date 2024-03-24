@@ -10,7 +10,7 @@ if (article) {
   badge.classList.add("color-secondary-text", "type--caption");
   badge.textContent = `⏱️ ${readingTime} min read`;
 
-  const heading = article.querySelector("header");
+  const heading = article.querySelector("h1");
   const date = article.querySelector("time")?.parentNode;
 
   if (date || heading) {
