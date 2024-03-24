@@ -8,10 +8,7 @@
     {
       "js": ["scripts/content.js"],
       "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*",
-        "https://espn.com/*",
-        "https://theverge.com/*"
+        "<all_urls>"
       ]
     }
   ]
