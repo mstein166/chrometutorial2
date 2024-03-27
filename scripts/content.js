@@ -24,6 +24,6 @@ if (article) {
     console.warn('No suitable element found to insert the badge after. Consider appending it to another element.');
   }
 
-  if ("headline-1 js-widont prettify") {
+  if (title) {
     badge.textContent = 'Your movie is...";
   }
